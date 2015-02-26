@@ -7,13 +7,18 @@
 	  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
 	  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
 	  <%= csrf_meta_tags %>
 	</head>
 
 	<body>
-    This will be the navigation..
-    <%= link_to "Home", "/" %>
-    <%= link_to "About", "/about" %>
-		<%= yield %>
+    <div class="container">
+      <%= link_to "Home", "/" %>
+      <%= link_to "About", "/about" %>
+
+  		<%= yield %>
+    </div>
+
 	</body>
 </html>
