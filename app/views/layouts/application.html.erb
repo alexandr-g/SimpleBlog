@@ -13,16 +13,24 @@
 	</head>
 
 	<body>
-  
     <div class="container">
-      <ul class="nav nav-pills pull-right">
-        <li>
-          <%= link_to "Home", "/" %>
-        </li>
-        <li>
-          <%= link_to "About", "/about" %>
-        </li>
-      </ul>
+      <div class="page-header">
+
+        <ul class="nav nav-pills pull-right">
+          <li>
+            <%= link_to "Home", "/" %>
+          </li>
+          <li>
+            <%= link_to "About", "/about" %>
+          </li>
+        </ul>
+
+        <h1>
+            <%= link_to 'crumbrl', '/' %> 
+            <small>// simple blog rails app</small>
+        </h1>
+        
+      </div>
 
   		<%= yield %>
     </div>
