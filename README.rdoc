@@ -1,15 +1,14 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is simmple Blog application made with Ruby on Rails framework.
 
-Things you may want to cover:
+What I am using:
 
-* Ruby version
+* Ruby version 2.0.0
 
-* System dependencies
+* Rails 4.2.0
 
-* Configuration
+* Bootstrap 3.3.2
 
 * Database creation
 
