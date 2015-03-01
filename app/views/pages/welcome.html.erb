@@ -1,20 +1,12 @@
-<h1>Welcome</h1>
 
-<p>
-	This is the landing page for my Blog application. Made using Ruby on Rails. 
-</p>
+<% @posts.each do |post| %>
+	
+	<%= render 'posts/post', post: post %>
 
-<p>
-	This page is just a placeholder. Later on, I'll replace it with the posts in out blog.
-	This page is just a placeholder. Later on, I'll replace it with the posts in out blog.
-	This page is just a placeholder. Later on, I'll replace it with the posts in out blog.
-	This page is just a placeholder. Later on, I'll replace it with the posts in out blog.
-	This page is just a placeholder. Later on, I'll replace it with the posts in out blog.
-	This page is just a placeholder. Later on, I'll replace it with the posts in out blog.
-	This page is just a placeholder. Later on, I'll replace it with the posts in out blog.
-	This page is just a placeholder. Later on, I'll replace it with the posts in out blog.
-	This page is just a placeholder. Later on, I'll replace it with the posts in out blog.
-	This page is just a placeholder. Later on, I'll replace it with the posts in out blog.
-	This page is just a placeholder. Later on, I'll replace it with the posts in out blog.
-	This page is just a placeholder. Later on, I'll replace it with the posts in out blog.
-</p>
+	<br>
+	<br>
+	<br>
+	<br>
+
+<% end %>
+
