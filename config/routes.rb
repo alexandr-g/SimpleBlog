@@ -1,8 +1,13 @@
 Rails.application.routes.draw do
+  devise_for :users
+  get 'persons/profile'
+
   resources :posts
   resources :hearts, only: :create 
 
   get 'about' => 'pages#about'
+
+  get 'persons/profile', as: 'user_root'
 
   root 'pages#welcome'
 

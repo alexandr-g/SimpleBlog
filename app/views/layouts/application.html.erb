@@ -28,14 +28,22 @@
           <li>
             <%= link_to "About", about_url %>
           </li>
+
+          <li>
+            <%= render 'devise/menu/registration_items' %>
+            <%= render 'devise/menu/login_items' %> 
+          </li>
+
         </ul>
 
         <h1>
             <%= link_to 'crumbrl', '/' %> 
             <small>// simple blog rails app</small>
         </h1>
-        
       </div>
+
+      <!-- <p class="text-center"><%= notice %></p> -->
+      <!-- <p class="alert text-center"><%= alert %></p> -->
       
       <div class="row">
         <div class="col-md-6 col-md-offset-3">

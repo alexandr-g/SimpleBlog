@@ -10,7 +10,6 @@ class HeartsController < ApplicationController
 	end
 
 	private
-
 		def heart_params
 			params.require(:heart).permit(:post_id)
 		end
