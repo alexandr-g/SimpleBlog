@@ -1,3 +1,5 @@
-require 'capybara/cucumber'
+require "capybara"
+require "capybara/cucumber"
+require "rspec"
 
 Capybara.default_driver = :selenium
